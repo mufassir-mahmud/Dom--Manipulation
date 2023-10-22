@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="my-5">
+        <h1 class="text-center text-5xl">All Flowers</h1>
+    </header>
+    <main>
+        <section>
+            <div class="flex items-center justify-around">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="pngwing 8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Snow White</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <p>Price: <span>100</span>$</p>
+                      <div class="card-actions">
+                        <button onclick="handleClick(this)" class="btn btn-primary">Add To Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card  w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="birthday.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <p>Price: <span>30</span>$</p>
+                      <div class="card-actions">
+                        <button onclick="handleClick(this)"  class="btn btn-primary">Add To Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-96 bg-base-100 shadow-xl md:col-span-1">
+                    <figure class="px-10 pt-10">
+                      <img src="pngwing 8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <p>Price: <span>50</span>$</p>
+                      <div class="card-actions">
+                        <button onclick="handleClick(this)"  class="btn btn-primary">Add To Cart</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                
+                <h2>Calculate Price</h2>
+                <p>Total</p>
+                <p>Discount</p>
+                <hr class="w-3/4">
+                <p>Total</p>
+            </div> 
+            </div>
+            
+        </section>
+    </main>
+    <script src="test.js"></script>
+</body>
+</html>
