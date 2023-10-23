@@ -14,26 +14,26 @@
     <main>
         <section>
             <div class="flex items-center justify-around">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-                <div class="card w-96 bg-base-100 shadow-xl">
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
+                <div class="card w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                       <img src="pngwing 8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
                       <h2 class="card-title">Snow White</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <p>Price: <span>100</span>$</p>
+                      <p>Price: <span id="white-price">100</span>$</p>
                       <div class="card-actions">
                         <button onclick="handleClick(this)" class="btn btn-primary">Add To Cart</button>
                       </div>
                     </div>
                   </div>
-                <div class="card  w-96 bg-base-100 shadow-xl">
+                <div class="card  w-72 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                       <img src="birthday.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
+                      <h2 class="card-title">Snow Red</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <p>Price: <span>30</span>$</p>
                       <div class="card-actions">
@@ -41,12 +41,12 @@
                       </div>
                     </div>
                   </div>
-                <div class="card w-96 bg-base-100 shadow-xl md:col-span-1">
+                <div class="card w-72 bg-base-100  shadow-xl ">
                     <figure class="px-10 pt-10">
                       <img src="pngwing 8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Shoes!</h2>
+                      <h2 class="card-title">Snow Pink</h2>
                       <p>If a dog chews shoes whose shoes does he choose?</p>
                       <p>Price: <span>50</span>$</p>
                       <div class="card-actions">
@@ -56,12 +56,14 @@
                   </div>
             </div>
             <div>
-                
+                <div id="selected-item">
+
+                </div>
                 <h2>Calculate Price</h2>
-                <p>Total</p>
-                <p>Discount</p>
+                <p>Total <span id="total">00</span></p>
+                <p>Discount <span >00</span></p>
                 <hr class="w-3/4">
-                <p>Total</p>
+                <p>Total: <span>00</span></p>
             </div> 
             </div>
             
